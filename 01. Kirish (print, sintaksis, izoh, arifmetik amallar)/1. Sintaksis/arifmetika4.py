@@ -1,0 +1,1 @@
+print("Siz", 2022 - 30, "yilsiz")

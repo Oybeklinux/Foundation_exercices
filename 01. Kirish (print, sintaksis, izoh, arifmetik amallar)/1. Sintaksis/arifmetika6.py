@@ -1,0 +1,1 @@
+print("35 ni 8 bo'lib butun qismini olsa", 35 // 8, "bo'ladi")

@@ -1,0 +1,1 @@
+print("35 ni 8 bo'lganda", 35 % 8, "qoldiq qoladi")
