@@ -1,0 +1,1 @@
+print(input("Daftarlar sonini kiriting: ") + " daftar bor ekan")
