@@ -6,4 +6,5 @@ Chiqish
       Ismingiz nima: Otabek
       Otabek, siz tizimga muvaffaqiyatli kirdingiz
 """
+
 print(input("Ismingiz nima: ") + ", siz tizimga muvaffaqiyatli kirdingiz")

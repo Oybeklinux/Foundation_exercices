@@ -1,14 +1,12 @@
 """
 4. Quyidagini ekranga chiqaradigan kod yozing ([Yechim](print4.py))
 
-Chiqish
-
-      ***********
-      *********
-      *******
-      *****
-      ***
-      *
+***********
+*********
+*******
+*****
+***
+*
 """
 # 1-usul
 print("""

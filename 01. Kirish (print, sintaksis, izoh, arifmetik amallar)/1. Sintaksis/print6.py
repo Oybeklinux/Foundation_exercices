@@ -1,16 +1,15 @@
 """
 6. Quyidagini ekranga chiqaradigan kod yozing ([Yechim](print6.py))
 
-Chiqish
-
-       ______________
-      |              |
-      |              |
-      |              |
-      |              |
-      |______________|
+ ______________
+|              |
+|              |
+|              |
+|              |
+|______________|
 
 """
+
 # 1-usul
 print("""
  ______________

@@ -1,8 +1,6 @@
 """
 7. Quyidagini ekranga chiqaradigan kod yozing ([Yechim](print7.py))
 
-Chiqish
-
        /\
       /  \
      /    \
@@ -10,6 +8,7 @@ Chiqish
    /        \
   /__________\
 """
+
 # 1-usul
 print("""
      /\ 
