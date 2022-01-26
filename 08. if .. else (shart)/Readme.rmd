@@ -1,0 +1,35 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+The [R plugin](https://www.jetbrains.com/help/pycharm/r-plugin-support.html) for IntelliJ-based IDEs provides
+handy capabilities to work with the [R Markdown](https://www.jetbrains.com/help/pycharm/r-markdown.html) files.
+To [add](https://www.jetbrains.com/help/pycharm/r-markdown.html#add-code-chunk) a new R chunk,
+position the caret at any line or the code chunk, then click "+".
+
+The code chunk appears:
+```{r}
+```
+
+Type any R code in the chunk, for example:
+```{r}
+mycars <- within(mtcars, { cyl <- ordered(cyl) })
+mycars
+```
+
+Now, click the **Run** button on the chunk toolbar to [execute](https://www.jetbrains.com/help/pycharm/r-markdown.html#run-r-code) the chunk code. The result should be placed under the chunk.
+Click the **Knit and Open Document** to build and preview an output.
+
+
+16. Yuqoridagi masalaga yana bitta qo'shimcha qilamiz. Endi qaysi qavatda joylashganidan tashqari, chap, usha qavatda nechinchi honadonligini chiqaring (1,2,3)
+```text
+30 honadondan iborat 10 qavatli binoga hush kelibsiz
+Honadon raqamini kiriting: 6
+6-honadon 2-qavatda bo'lib, o'ngdan chapga sanaganda 3-uy
+```
+```text
+30 honadondan iborat 10 qavatli binoga hush kelibsiz
+Honadon raqamini kiriting: 4
+4-honadon 2-qavatda bo'lib, chapdan sanaganda 1-uy
+```
