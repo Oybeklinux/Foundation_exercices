@@ -1,0 +1,5 @@
+matn = input("Matn kiriting: ")
+matn = matn.replace(" ", "-")
+matn = matn.replace(",", "")
+matn = matn.replace(".", "")
+print(f"Hosil bo'lgan matn: {matn}")

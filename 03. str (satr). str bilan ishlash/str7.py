@@ -1,0 +1,11 @@
+ustun = 15
+ism1 = input("Ismingiz: ")
+sharifi1 = input("Sharifingiz: ")
+ism2 = input("Ismingiz: ")
+sharifi2 = input("Sharifingiz: ")
+ism3 = input("Ismingiz: ")
+sharifi3 = input("Sharifingiz: ")
+print("\nIsm".center(ustun), "Sharifi".center(ustun))
+print(ism1.center(ustun), sharifi1.center(ustun))
+print(ism2.center(ustun), sharifi2.center(ustun))
+print(ism3.center(ustun), sharifi3.center(ustun))
