@@ -1,5 +1,5 @@
 """
-5. 35 ni 8 bo'lib, qoldig'ni chiqaring ([Yechim](1.%20Sintaksis/arifmetika5.py)
+5. 35 ni 8 bo'lib, qoldig'ni chiqaring ([Yechim](1.%20Sintaksis/2arifmetika5.py)
 
 35 ni 8 bo'lganda 3 qoldiq qoladi
 

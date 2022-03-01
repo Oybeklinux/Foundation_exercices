@@ -1,0 +1,1 @@
+input("So'z kiriting: ")

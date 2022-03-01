@@ -1,5 +1,5 @@
 """
-2. 365 // 7 (Yilda hafta soni) natijasini ekranga chiqaring ([Yechim](1.%20Sintaksis/arifmetika2.py)
+2. 365 // 7 (Yilda hafta soni) natijasini ekranga chiqaring ([Yechim](1.%20Sintaksis/2arifmetika2.py)
 
 52
 

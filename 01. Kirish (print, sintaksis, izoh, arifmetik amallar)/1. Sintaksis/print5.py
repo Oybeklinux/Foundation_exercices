@@ -1,5 +1,5 @@
 """
-5. Quyidagini ekranga chiqaradigan kod yozing ([Yechim](print5.py))
+5. Quyidagini ekranga chiqaradigan kod yozing ([Yechim](1print5.py))
 
      *
     ***

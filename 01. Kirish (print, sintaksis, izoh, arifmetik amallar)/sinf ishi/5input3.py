@@ -1,0 +1,1 @@
+print("So'z uzunligi: ", len(input("So'z kiriting: ")), " ta belgidan iborat")

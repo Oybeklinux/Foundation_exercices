@@ -1,0 +1,1 @@
+print("Ismim:\tOtabek\nYoshim:\t34")

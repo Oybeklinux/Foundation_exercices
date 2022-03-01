@@ -1,5 +1,5 @@
 """
-4. Quyidagini ekranga chiqaradigan kod yozing ([Yechim](print4.py))
+4. Quyidagini ekranga chiqaradigan kod yozing ([Yechim](1print4.py))
 
 ***********
 *********

@@ -1,5 +1,5 @@
 """
-3. 35 ni 8 bo'lib, qoldig'ni chiqaring. 35 va natijani o'zgaruvchi bilan bering. Ma'noli nom beramiz va izoh bilan kod yozamiz ([Yechim](1.%20Sintaksis/arifmetika5.py))
+3. 35 ni 8 bo'lib, qoldig'ni chiqaring. 35 va natijani o'zgaruvchi bilan bering. Ma'noli nom beramiz va izoh bilan kod yozamiz ([Yechim](1.%20Sintaksis/2arifmetika5.py))
 
 35 ni 8 bo'lganda 3 qoldiq qoladi
 
