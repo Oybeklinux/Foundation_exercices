@@ -23,8 +23,11 @@ def menu(habar, lst):
 
 
 def clear_screen():
-    if platform.system().lower() == "windows":
+    system = platform.system().lower()
+    if system == "windows":
         os.system("cls")
+    elif system == "linux":
+        os.system("clear -x")
     else:
         os.system("clear screen")
 
