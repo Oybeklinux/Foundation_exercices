@@ -1,5 +1,13 @@
-s = 0
-for son in range(15, 101):
-    s += son
-    print(son)
-print(s)
+def daraja_5mi(a):
+    daraja = 1
+    while True:
+        daraja *= 5
+        if daraja == a:
+            return True
+        elif daraja > a:
+            return False
+
+
+for i in range(0,1000):
+    if daraja_5mi(i):
+        print(i)
