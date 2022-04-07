@@ -1,24 +1,17 @@
-def fibonachi(tartibi=0):
-    # if a == 0:
-    #     return 0
-    # if a == 1:
-    #     return 1
-    # return fibonachi(a-2) + fibonachi(a-1)
-    sum = 0
-    a1=0
-    a2=1
-    k = [a1, a2]
-
-    for i in range(2, tartibi+1):
-        sum = a1 + a2
-        a1, a2 = a2, sum
-        k.append(sum)
-        print(k)
-        if i+1 == tartibi:
-            return sum
-
-    return k
+def factorial(n):
+    total = 1
+    for i in range(1, n + 1):
+        total *= i
+    return total
 
 
-k = int(input("Tartib raqamini kiriting: "))
-print(fibonachi(k))
+def exp(x, n):
+    summa = 0
+    for i in range(n):
+        summa += x ** i / (factorial(i))
+        print(f"qadam-{i + 1}: {x ** i / (factorial(i))}")
+    print(f"Yig'indisi: {exp(5, 3)}")
+    return summa
+
+
+print(f"Yig'indisi: {exp(5, 3)}")
