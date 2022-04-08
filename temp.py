@@ -8,10 +8,10 @@ def factorial(n):
 def exp(x, n):
     summa = 0
     j = 0
-    for i in range(0, n, 2):
+    for i in range(0, n, 1):
         j += 1
-        summa += x ** i / (factorial(i))
-        print(f"qadam-{j}: {x ** i / (factorial(i))}")
+        summa += x ** (2*i+1) / (factorial(2*i+1))
+        print(f"qadam-{j}: {x ** (2*i+1) / (factorial(2*i+1))}")
     print(f"Yig'indisi: {summa}")
     return summa
 
@@ -19,4 +19,3 @@ def exp(x, n):
 x = int(input("x: "))
 n = int(input("Daraja n: "))
 natija = exp(x, n)
-natija = exp(5, 10)
