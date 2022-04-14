@@ -1,21 +1,11 @@
-def factorial(n):
-    total = 1
-    for i in range(1, n + 1):
-        total *= i
-    return total
+import random as r
 
+sonlar = r.sample(range(100),10) # 0-99 oralig'ida 10 ta tasodifiy sonlar
 
-def exp(x, n):
-    summa = 0
-    j = 0
-    for i in range(0, n, 1):
-        j += 1
-        summa += ((-1) ** i) * x ** (2*i) / (factorial(2*i))
-        print(f"qadam-{j}: {x ** (2*i) / (factorial(2*i))}")
-    print(f"Yig'indisi: {summa}")
-    return summa
+def juftmi(x):
+    """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
+    return x%2==0
 
-
-x = int(input("x: "))
-n = int(input("Daraja n: "))
-natija = exp(x, n)
+juft_sonlar = list(filter(juftmi,sonlar))
+print(sonlar)
+print(juft_sonlar)
