@@ -67,10 +67,6 @@ print(sana)
 
 Bu yerda date() funksiya emas, datetime moduliga kiruvchi sinf (class). Biz shu paytgacha ularni ma'lumot turlari deb o'qib keldik. Aslida esa ular <font color="red"> class </font>deb nomlanadi. Masalan int, list kabi ma'lumot turlari ham aslida class. Shu class ga tegishli bo'lgan o'zgaruvchi <font color="red"> obyekt</font> deyiladi. class va obyekt haqida to'liqloq boshqa mavzuda tanishamiz.<br>
 2. Sanani quyidagi formatda chiqaring:
-```text
-Hozir 2022 yil 2-oy 14-kun
-Haftaning 1-kuni
-```
 ```python
 from datetime import date
 
@@ -79,6 +75,11 @@ print(f"Hozir {sana.year} yil {sana.month}-oy {sana.day}-kun")
 print(f"Haftaning {sana.weekday() + 1}-kuni") 
 # sana.weekday() + 1 = sana.isoweekday()
 ```
+```text
+Hozir 2022 yil 2-oy 14-kun
+Haftaning 1-kuni
+```
+
 3. Sanani oyi o'zgartirilsin
 ```python
 from datetime import date
@@ -578,3 +579,84 @@ print(f"Ikki voqealar orasi  {farq.days} kunu  {farq.seconds//3600} soat ekan")
 Ikki voqealar orasi  296 kunu  1 soat ekan
 ```
 ## Amaliyot. O'quvchi
+1. 25.04.2022 sanaga ega bo'lgan datetime obyektini yarating. So'ng ekranga chiqaring
+
+```text
+2022-04-25
+```
+2. Bugungi sanani quyidagi formatda chiqaring:
+```text
+Hozir 2022 yil 5-oy 5-kun
+Haftaning 5-kuni
+```
+3. Bugungi sanani va 2 oy keyingi sanani ekranga chiqaring:
+<br>
+Sizda ekranga chiqadigan usha kun sanasi bo'ladi. Ya'ni quyidagidan farqli bo'ladi
+```text
+Hozir 2022 yil 5-oy 5-kun
+2 oydan keyin: 2022 yil 7-oy 5-kun
+```
+4. Bugungi sanani va 10 yil keyingi sanani ekranga chiqaring
+```text
+Hozir 2022 yil 5-oy 5-kun
+10 yil keyin: 2032 yil 5-oy 5-kun
+```
+5. Ekranga aprel oyida tug'ilgan va elektron manzili mavjud bo'lgan talabalarni chiqaring:
+```python
+from datetime import date
+talabalar = [
+    {
+        "ismi": "Otabek",
+        "tugilgan_sana": date(1990,4,5),
+        "login": "otabek@gmail.com"
+    },
+    {
+        "ismi": "Anvar",
+        "tugilgan_sana": date(1991,4,15),
+        "login": None
+    },
+    {
+        "ismi": "Bekzod",
+        "tugilgan_sana": date(1990,4,12),
+        "login": "bekzod@gmail.com"
+    },
+    {
+        "ismi": "Farida",
+        "tugilgan_sana": date(1990,1,1),
+        "login": "farida@gmail.com"
+    }
+]
+```
+
+```text
+Aprel oyida tug'ilgan va elektron manzili bor talabalar:
+Otabek
+Bekzod
+```
+6. Juma kuni nima rejalar bor,ekranga chiqaring:
+```python
+from datetime import date
+reja = [
+    {
+        "nomi": "Toqqa chiqish",
+        "sana": date(2022,5,5)
+    },
+    {
+        "nomi": "To'yga borish",
+        "sana": date(2022,5,6)
+    },
+    {
+        "nomi": "Do'stlar bilan uchrashuv",
+        "sana": date(2022,5,7)
+    },
+    {
+        "nomi": "Qarindoshlarni ko'rishga borish",
+        "sana": date(2022,5,13)
+    }
+]
+```
+```text
+Dushanbada tug'ilgan talabalar:
+Anvar 15 April 1991
+Farida 01 January 1990
+```
