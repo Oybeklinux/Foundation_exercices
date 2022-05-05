@@ -141,7 +141,7 @@ Otabek otabek@gmail.com
 Bekzod bekzod@gmail.com
 Farida farida@gmail.com
 ```
-6. Dushanbada tug'ilgan talabalarning ismi va tug'ilgan sanalarini ekranga chiqaring. Sana quyidagi ** bo'lsin:
+6. Dushanbada tug'ilgan talabalarning ismi va tug'ilgan sanalarini ekranga chiqaring. Sana quyidagi ko'rinishda bo'lsin:
 ```text
 Dushanbada tug'ilgan talabalar:
 Anvar 15 April 1991
@@ -659,4 +659,81 @@ reja = [
 Dushanbada tug'ilgan talabalar:
 Anvar 15 April 1991
 Farida 01 January 1990
+```
+7. hozirgi_vaqt(),hozirgi_sana() nomli funksiyalar yozing. Funksiyalar mos ravishda bugungi sanani va hozirgi vaqtni satr ko'rinishda qaytarsin. Funksiyalardan foydalanib, natijasi quyidagicha dastur yozing:
+```text
+Tanlang:
+1. Bugungi sana
+2. Hozirgi vaqt
+1
+Bugun 5 may 2022 yil
+```
+```text
+Tanlang:
+1. Bugungi sana
+2. Hozirgi vaqt
+2
+Soat 1 dan 14 minut o'tdi. 
+```
+8. Turargohga mashinalar kirgan vaqtlari berilgan. Siz ulardan 12:00 dan 18:00 gacha kirgan mashinalar ro'yxatini chiqaring
+```python
+from datetime import time
+
+mashinalar = [
+    {
+        "rusumi": " nexia",
+        "raqami": "AA 3455",
+        "vaqti": time(11,45,22)
+    },
+    {
+        "rusumi": " matiz",
+        "raqami": "AA 911",
+        "vaqti": time(14,5,2)
+    },
+    {
+        "rusumi": " captiva",
+        "raqami": "BB 333",
+        "vaqti": time(17,30,15)
+    }
+]
+```
+9. Foydalanuvchidan tug'ilgan sanasini so'rang. So'ng unga qaysi kuni tug'ilganini ekranga chiqaring:
+```text
+Tug'ilgan sanangiz.  
+Kun: 23
+Oy: 4
+Yil: 1987
+Siz payshanba tug'ilgan ekansiz
+```
+
+10. Foydalanuvchidan ismi va tug'ilgan sanasini so'rab, foydalnuvchilar ro'yxatini hosil qiling. Dastur quyidagi ko'rinishida bo'lsin:
+```text
+Menyu:
+1. Foydalanuvchi kiritish
+2. Ko'rish
+3. Chiqish
+1
+Ism: Otabek
+Tug'ilgan sanani (M 12.04.2023) kiriting: 15.6.1990
+Yozuv muvaffaqiyatli kiritildi
+
+1. Foydalanuvchi kiritish
+2. Ko'rish
+3. Chiqish
+1
+Ism: Oybek
+Tug'ilgan sanani (M 12.04.2023) kiriting: 23.4.1987
+Yozuv muvaffaqiyatli kiritildi
+
+1. Foydalanuvchi kiritish
+2. Ko'rish
+3. Chiqish
+2
+Otabek Iyun 1990 yil 
+Oybek Aprel 1987 yil
+
+1. Foydalanuvchi kiritish
+2. Ko'rish
+3. Chiqish
+3
 ```
