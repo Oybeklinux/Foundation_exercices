@@ -591,11 +591,14 @@ Haftaning 5-kuni
 ```
 3. Bugungi sanani va 2 oy keyingi sanani ekranga chiqaring:
 <br>
+
 Sizda ekranga chiqadigan usha kun sanasi bo'ladi. Ya'ni quyidagidan farqli bo'ladi
+
 ```text
 Hozir 2022 yil 5-oy 5-kun
 2 oydan keyin: 2022 yil 7-oy 5-kun
 ```
+
 4. Bugungi sanani va 10 yil keyingi sanani ekranga chiqaring
 ```text
 Hozir 2022 yil 5-oy 5-kun
