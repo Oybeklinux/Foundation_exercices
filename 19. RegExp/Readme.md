@@ -112,22 +112,22 @@ Mana endi RegEx andozasi qoidalari bilan tanishib, misol ko'rib chiqamiz
 <tr>
     <td><code>\d</code></td>
 	<td>son ekanligiga tekshiradi</td>
-	<td>6-misol</td>
+	<td>5-misol</td>
 </tr>
 <tr>
     <td><code>\D</code></td>
 	<td>son emasligiga tekshiradi</td>
-	<td>7-misol</td>
+	<td>6-misol</td>
 </tr>
 <tr>
     <td><code>\s</code></td>
 	<td>bo'sh joy ekanligiga tekshiradi</td>
-	<td>8-misol</td>
+	<td>7-misol</td>
 </tr>
 <tr>
     <td><code>\S</code></td>
 	<td>bo'sh joy emasligiga tekshiradi</td>
-	<td>9-misol</td>
+	<td></td>
 </tr>
 <tr>
     <td><code>\w</code></td>
