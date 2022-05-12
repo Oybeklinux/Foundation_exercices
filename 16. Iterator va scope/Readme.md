@@ -1,4 +1,4 @@
-# Mavzu 17: Sana va vaqt bilan ishlash
+# Mavzu 16: Iterator. Qamrov. Modul
  
 ## Reja:
 1. [Bilim](#1-bilim)
@@ -11,12 +11,10 @@
 
 ### 1.1 Terminlar
 ```
-timezone -
-datetime
-time
-date
-
-```
+modul -
+iterator -
+scope - 
+ ```
 ### 1.2 O'qish uchun materiallar
 - sariq dev
   -[Kutubhonalar](https://python.sariq.dev/last-words/38-python-library) 
