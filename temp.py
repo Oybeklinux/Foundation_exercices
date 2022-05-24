@@ -1,11 +1,31 @@
-import random as r
+def fun(a:int):
+    if a not in [1,2,3,4]:
+        raise ValueError
+    else:
+        a + a
 
-sonlar = r.sample(range(100),10) # 0-99 oralig'ida 10 ta tasodifiy sonlar
+try:
+    f = 2 + 23
+    d = {}
+    f = []
+    fun(23)
+except TypeError as e:
+    print("Ma'lumot turida xatolik",e)
+except KeyError as e:
+    print("Katlitda xatolik", e)
+except IndexError as e:
+    print("Indeksda xatolik", e)
+except ZeroDivisionError:
+    print("0 bo'lish xatoligi")
+except FileNotFoundError:
+    print("Fayl mavjud emas")
+except FileExistsError:
+    print("Fayl mavjud")
+except ValueError:
+    print("Qiymatda xatolik")
+else:
+    print("Ishladi")
+finally:
+    print("Dastur tugadi")
 
-def juftmi(x):
-    """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
-    return x%2==0
 
-juft_sonlar = list(filter(juftmi,sonlar))
-print(sonlar)
-print(juft_sonlar)
