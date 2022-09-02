@@ -1,3 +1,2 @@
-<div>
-<iframe width="1360" height="657" src="https://www.youtube.com/embed/PNTCM7cbrsc?list=TLGGOFvGShY-AN0wMjA5MjAyMg" title="Small Talk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+<iframe width="100%" height="650" src="video.html" /></iframe>
