@@ -309,7 +309,7 @@ True
 
 ```text
 Shaxmat doskasida shox (5,1) koordinatada joylashgan
-Shox qaysi koordinataga yurish qila oladi?
+Shox qaysi koordinataga yurish qila oladi? 
 x ni kiriting: 7 
 y ni kiriting: 1
 False
