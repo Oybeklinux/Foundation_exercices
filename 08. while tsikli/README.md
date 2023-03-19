@@ -258,7 +258,41 @@ while son - 18 > 0:
 63
 9
 ```
+Misollar:
+```python
+# 1-misol
+i = 0
+while i < 10:
+    i += 1
+    if i == 5 or i == 7:
+        continue
+    print(i)
 
+
+# 2-misol
+mevalar = ['olma', 'banan', 'nok', 'kivi', 'qulupnay']
+while mevalar:
+    meva = mevalar.pop()
+    if meva in ['banan', 'kivi']:
+        continue
+    print(meva)
+
+# 3-misol
+i = 0
+while i < 100:
+    i += 1
+    if i % 10 == 0:
+        continue
+    print(i)
+
+# 4-misol
+son = 100
+while son:
+    son -= 1
+    if son % 2 == 1:
+        continue
+    print(son)
+```
 ### 2.5 while .. else
 Qachonki shart bajarilmasa, ya'ni takrorlanishdan chiqib ketganda else bloki ishga tushadi
 6. 1-5 oraliqdagi sonlarni ekranga chiqaring:
