@@ -193,6 +193,36 @@ Bittasini tanlang:
 Menyu tanlandi
 ```
 
+Misollar:
+```python
+# 1-misol
+while True:
+    print("Cheksiz takrorlanish")
+
+# 2-misol
+timer = 0
+while 1: # 1 != 0
+    print(timer)
+    timer += 1
+
+# 3-misol
+sonlar = [2,3,4]
+while [2,3,4]: # [2,3,4] != []
+    print("sonlar")
+
+# 4-misol
+soni = 0
+while soni <= 10:
+    print("Cheksiz tsikl: soni =", soni)
+    # soni o'zgaruvchisini oshirib bormayapmiz
+
+# 5-misol
+while True:
+    tomoni = int(input("Kvadrat tomoni: "))
+    print(f"Kvadrat yuzi:", tomoni ** 2)
+
+```
+
 ### 2.3 break ifodasi
 break - takrorlanishdan chiqish uchun ishlatiladi
 
