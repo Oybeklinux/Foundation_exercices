@@ -166,14 +166,14 @@ CREATE TABLE Buyurtma (
 ```
 
 ### 2.5 Cheklovlar
-- Primary key. Dublikat bo'lmaydi, bo'sh (NULL) bo'lmaydi. Foreign key bilan birga ishlatilishi mumkin. Jadvalda bitta bo'ladi
+- Primary key. Qiymatlar noyob bo'ladi, ya'ni ikkita bir hil qiymat bo'lmaydi hamda bo'sh (NULL) bo'lmaydi. Foreign key bilan birga ishlatilishi mumkin. Jadvalda bitta bo'ladi
 <br>
 Mahsulotlar jadvali
 <br>
 
 ![](images/img_52.png)
 <br>
-- Foreign key. Dublikat bo'lishi mumkin, bo'sh (NULL) bo'lishi mumkin
+- Foreign key. Primary key maydonidagi qiymatlar bo'ladi. Bir hil qiymat bo'lishi mumkin, bo'sh (NULL) bo'lishi mumkin
 <br>
 Buyurtmalar jadvali
 <br>
