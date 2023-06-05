@@ -109,6 +109,14 @@ Dastur ko'rinishi:
 ![](images/img_50.png)
 <br>
 
+SQL turlari
+![image](https://github.com/Oybeklinux/Foundation_exercices/assets/63832234/40244afa-2f2f-4962-8614-a42bb1e5c7fd)
+
+- **DDL** - Data Definition Language. DDL buyruqlari sxema bilan, ya'ni ma'lumotlarimiz saqlanadigan jadval bilan ishlaydi.
+- **DML** -  Data Manipulation Language. SQL da DML buyruqlaridan foydalanib, biz jadvallardagi ma'lumotlarga o'zgartirishlar kiritishimiz mumkin.
+- **DCL** - Data Control Language. DCL buyruqlari har qanday ma'lumotlar bazasi foydalanuvchisidan vakolat berish va qaytarib olish uchun ishlatiladi.
+- **TCL** - Transaction Control Language. TCL buyruqlari faqat INSERT, DELETE va UPDATE kabi DML buyruqlari bilan ishlatilishi mumkin.
+
 ### 2.4 CREATE - tuzish
 
 [SQLite hujjati](https://www.sqlite.org/keyword_index.html)
