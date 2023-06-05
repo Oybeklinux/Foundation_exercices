@@ -120,6 +120,7 @@ SQL turlari
 ### 2.4 CREATE - tuzish
 
 [SQLite hujjati](https://www.sqlite.org/keyword_index.html)
+![image](https://github.com/Oybeklinux/Foundation_exercices/assets/63832234/e52a7200-43d7-4839-ba8d-d75a75ca2678)
 
 1. Mijoz jadvalini tuzing
 
