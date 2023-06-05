@@ -111,6 +111,8 @@ Dastur ko'rinishi:
 
 ### 2.4 CREATE - tuzish
 
+[SQLite hujjati](https://www.sqlite.org/keyword_index.html)
+
 1. Mijoz jadvalini tuzing
 
 ```sql
