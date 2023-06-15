@@ -19,16 +19,16 @@
 
 soz = 'Men dasturchiman'
 
-| Amal nomi                 | Yozilishi                       | Natija           |
-|---------------------------|---------------------------------|------------------|
-| Bosh harf                 | soz[0]                          | M                |
-| Ohirgi harf               | soz[-1]                         | n                |
-| O'rta harf                | soz[ len(soz) // 2 ]            | u                |
-| Boshidagi 3 ta harf       | soz[0:3] <br> yoki <br> soz[:3] | Men              |
-| Ohirgi 3 ta harf          | soz[-3:]                        | man              |
-| Hammasi                   | soz <br> yoki <br> soz[:]       | man              |
-| 2 ta qadam bo'yicha olish | soz[::2]                        | Mndsucia         |
-| Teskarilash               | soz[::-1]                       | namihcrutsad neM |
+| Amal nomi                          | Yozilishi                       | Natija           |
+|------------------------------------|---------------------------------|------------------|
+| Bosh harf                          | soz[0]                          | M                |
+| Ohirgi harf                        | soz[-1]                         | n                |
+| O'rta harf                         | soz[ len(soz) // 2 ]            | u                |
+| Boshidagi 3 ta harf                | soz[0:3] <br> yoki <br> soz[:3] | Men              |
+| Ohirgi 3 ta harf                   | soz[-3:]                        | man              |
+| Hammasi                            | soz <br> yoki <br> soz[:]       | man              |
+| Oralatib 2 ta qadam bo'yicha olish | soz[::2]                        | Mndsucia         |
+| Teskarilash                        | soz[::-1]                       | namihcrutsad neM |
 
 #### Satr metodlari
 
