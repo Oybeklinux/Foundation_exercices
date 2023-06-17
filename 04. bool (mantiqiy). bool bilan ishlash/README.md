@@ -57,9 +57,9 @@ Arifmetik operatorlar oddiy matematik amallarni bajarish uchun ishlatiladi:
 
 #### Satrlarni solishtirish
 
-soz1 = 'dastur'
-soz2 = 'dasturchi'
-soz3 = ''
+soz1 = 'dastur'<br>
+soz2 = 'dasturchi'<br>
+soz3 = ''<br>
 <table>
 <tr><td>№</td><td>Nomi</td><td>Misol</td><td>Javobi</td><td>Izoh</td></tr>
 <tr><td>1</td><td>'a' ning kodi 'b' ning kodidan kattami?</td><td>'a' > 'b'</td><td>False</td><td>ord('a') > ord('b')</td></tr>
