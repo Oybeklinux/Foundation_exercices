@@ -47,7 +47,7 @@ soz3 = ''<br>
 <table>
 <tr><td>№</td><td>Nomi</td><td>Misol</td><td>Javobi</td><td>Izoh</td></tr>
 <tr><td>1</td><td>'a' ning kodi 'b' ning kodidan kattami?</td><td>'a' > 'b'</td><td>False</td><td>ord('a') > ord('b')</td></tr>
-<tr><td>2</td><td>'a' ning kodi 'b' ning kodidan kichikmi?</td><td>3 < 6</td><td>True</td><td>ord('a') < ord('b')</td></tr>
+<tr><td>2</td><td>'a' ning kodi 'b' ning kodidan kichikmi?</td><td>'a' < 'b'</td><td>True</td><td>ord('a') < ord('b')</td></tr>
 <tr><td>3</td><td>soz1 bilan soz2 bir xilmi?</td><td>soz1 == soz2</td><td>False</td><td></td></tr>
 <tr><td>4</td><td>soz1 bilan soz2 bir xil emasmi?</td><td>soz1 != soz2</td><td>True</td><td></td></tr>
 <tr><td>5</td><td>soz1 bo'sh satrmi?</td><td> not soz1</td><td>False</td><td></td></tr>
