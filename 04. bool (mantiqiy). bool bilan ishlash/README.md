@@ -59,8 +59,8 @@ soz3 = ''<br>
 
 #### To'plamlarni solishtirish
 
-toplam1 = [1, 2, 3, 4]
-toplam2 = ''<br>
+toplam1 = [1, 2, 3, 4]<br>
+toplam2 = ''<br><br>
 <table>
 <tr><td>№</td><td>Nomi</td><td>Misol</td><td>Javobi</td></tr>
 <tr><td>1</td><td>1 soni toplam1 da uchraydimi?</td><td>1 in toplam1</td><td>True</td></tr>
