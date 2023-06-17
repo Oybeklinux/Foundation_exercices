@@ -68,6 +68,7 @@ soz3 = ''
 <tr><td>4</td><td>soz1 bilan soz2 bir xil emasmi?</td><td>soz1 != soz2</td><td>True</td><td></td></tr>
 <tr><td>5</td><td>soz1 bo'sh satrmi?</td><td> not soz1</td><td>False</td><td></td></tr>
 <tr><td>6</td><td>soz3 bo'sh satrmi?</td><td>not soz3</td><td>True</td><td></td></tr>
+ <tr><td>6</td><td>soz2 ichida soz1 uchraydimi?</td><td>soz1 in soz2</td><td>True</td><td></td></tr>
 </table>
 
 <br>
