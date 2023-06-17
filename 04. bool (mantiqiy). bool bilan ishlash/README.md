@@ -45,12 +45,12 @@ Arifmetik operatorlar oddiy matematik amallarni bajarish uchun ishlatiladi:
 <table>
 <tr><td>№</td><td>Nomi</td><td>Misol</td><td>Javobi</td></tr>
 <tr><td>1</td><td>3 soni 6 sonidan kattami?</td><td>3 > 6</td><td>False</td></tr>
-<tr><td>2</td><td>3 soni 6 sonidan kichikmi?</td><td>3 < 6</td><td>-3</td></tr>
+<tr><td>2</td><td>3 soni 6 sonidan kichikmi?</td><td>3 < 6</td><td>True</td></tr>
 <tr><td>3</td><td>3 soni 6 sonidan katta yoki tengmi?</td><td>3 >= 6</td><td>False</td></tr>
 <tr><td>4</td><td>3 soni 6 sonidan kichik yoki tengmi?</td><td>3 <= 6</td><td>True</td></tr>
 <tr><td>5</td><td>3 soni 6 soniga tengmi?</td><td>6 == 4</td><td>False</td></tr>
 <tr><td>6</td><td>3 soni 6 soniga teng emasmi?</td><td>6 != 3</td><td>True</td></tr>
-<tr><td>7</td><td>6 soni 0 ga teng emasmi</td><td>not 6</td><td>2</td></tr>
+<tr><td>7</td><td>6 soni 0 ga tengmi?</td><td>not 6</td><td>False</td></tr>
 </table>
 
 <br>
