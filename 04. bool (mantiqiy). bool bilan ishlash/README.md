@@ -24,22 +24,6 @@
 
 ### Qayatirish uchun
 
-#### Arifmetik operatorlar
-
-Arifmetik operatorlar oddiy matematik amallarni bajarish uchun ishlatiladi:
-<table>
-<tr><td>Operator</td><td>Nomi</td><td>Misol</td><td>Javobi</td></tr>
-<tr><td>+</td><td>Qo'shish</td><td>3 + 6</td><td>9</td></tr>
-<tr><td>-</td><td>Ayirish</td><td>3 - 6</td><td>-3</td></tr>
-<tr><td>*</td><td>Ko'paytirish</td><td>3 * 6</td><td>18</td></tr>
-<tr><td>/</td><td>Bo'lish</td><td>6 / 3</td><td>2.0</td></tr>
-<tr><td>%</td><td>Qoldiq olish</td><td>7 % 4</td><td>3</td></tr>
-<tr><td>**</td><td>Darajaga oshirish</td><td>7 * 2</td><td>49</td></tr>
-<tr><td>//</td><td>Bo'lib butun qismini olish</td><td>9 // 4</td><td>2</td></tr>
-</table>
-
-<br>
-
 #### Sonlarni solishtirish
 
 <table>
@@ -72,6 +56,53 @@ soz3 = ''<br>
 </table>
 
 <br>
+
+#### To'plamlarni solishtirish
+
+toplam1 = [1, 2, 3, 4]
+toplam2 = ''<br>
+<table>
+<tr><td>№</td><td>Nomi</td><td>Misol</td><td>Javobi</td></tr>
+<tr><td>1</td><td>1 soni toplam1 da uchraydimi?</td><td>1 in toplam1</td><td>True</td></tr>
+<tr><td>2</td><td>1 soni toplam1 da uchramaydimi?</td><td>1 not in toplam1</td><td>True</td></tr>
+<tr><td>3</td><td>toplam2 bo'shmi</td><td>not toplam2</td><td>True</td></tr>
+</table>
+
+<br>
+
+#### Sonlarni tekshirish
+
+son = 10 <br>
+
+<br>
+<table>
+<tr><td>№</td><td>Nomi</td><td>Misol</td><td>Javobi</td></tr>
+<tr><td>1</td><td>son musbatmi?</td><td>son > 0</td><td>True</td></tr>
+<tr><td>2</td><td>son manfiymi?</td><td>son < 0</td><td>False</td></tr>
+<tr><td>3</td><td>son juftmi?</td><td>son % 2 == 0</td><td>True</td></tr>
+<tr><td>4</td><td>son toqmi?</td><td>son % 2 == 1</td><td>False</td></tr>
+<tr><td>5</td><td>son 5 ga karralikmi?</td><td>son % 5 == 0</td><td>True</td></tr>
+<tr><td>6</td><td>son 5 ga karralik emasmi?</td><td>son % 5 != 0</td><td>False</td></tr>
+</table>
+
+<br>
+
+#### Arifmetik operatorlar
+
+Arifmetik operatorlar oddiy matematik amallarni bajarish uchun ishlatiladi:
+<table>
+<tr><td>Operator</td><td>Nomi</td><td>Misol</td><td>Javobi</td></tr>
+<tr><td>+</td><td>Qo'shish</td><td>3 + 6</td><td>9</td></tr>
+<tr><td>-</td><td>Ayirish</td><td>3 - 6</td><td>-3</td></tr>
+<tr><td>*</td><td>Ko'paytirish</td><td>3 * 6</td><td>18</td></tr>
+<tr><td>/</td><td>Bo'lish</td><td>6 / 3</td><td>2.0</td></tr>
+<tr><td>%</td><td>Qoldiq olish</td><td>7 % 4</td><td>3</td></tr>
+<tr><td>**</td><td>Darajaga oshirish</td><td>7 * 2</td><td>49</td></tr>
+<tr><td>//</td><td>Bo'lib butun qismini olish</td><td>9 // 4</td><td>2</td></tr>
+</table>
+
+<br>
+
 
 #### O'zlashtirish operatorlar
 x = 9
