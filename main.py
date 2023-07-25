@@ -1,7 +1,11 @@
-mijozlar = (('Anvar', 'Bortirov', 49), ('Otabek', 'Fazliddinov', 55), ('Jasur', 'Murodov', 39), ('Bekzod', 'Muslimov', 33))
+def mening_funksiyam(royxat_1):
+    print("#1:", royxat_1)
+    print("#2:", royxat_2)
+    royxat_1 = [0, 1]
+    print("#3:", royxat_1)
+    print("#4:", royxat_2)
 
-for mijoz in mijozlar:
-    ismi = mijoz[0]
-    sharifi = mijoz[1]
-    yoshi = mijoz[2]
-    print(f"{ismi.center(10)}{sharifi.center(20)}{str(yoshi).center(10)}")
+
+royxat_2 = [2, 3]
+mening_funksiyam(royxat_2)
+print("#5:", royxat_2)
