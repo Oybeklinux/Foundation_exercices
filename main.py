@@ -1,6 +1,16 @@
-sonlar1 = [1,2,3,4]
-sonlar2 = sonlar1.copy()
-sonlar2 = sonlar1[:]
-sonlar2.pop()
-print(sonlar1)
-print(sonlar2)
+def print_movie(*args):
+    print(type(args))
+    for value in args:
+        print(value)
+
+movie = {
+    "title": "The Matrix",
+    "director": "Wachowski",
+    "year": 1999
+}
+
+print_movie(*movie.values())
+
+# The Matrix
+# Wachowski
+# 1999
