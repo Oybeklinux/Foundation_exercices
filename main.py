@@ -1,16 +1,3 @@
-def print_movie(*args):
-    print(type(args))
-    for value in args:
-        print(value)
-
-movie = {
-    "title": "The Matrix",
-    "director": "Wachowski",
-    "year": 1999
-}
-
-print_movie(*movie.values())
-
-# The Matrix
-# Wachowski
-# 1999
+# 15,25,35,45,55 sonlarini ko’paytmasini va yig’indisini ekranga chiqaring
+# Sonlar yig'indisi: 175
+# Sonlar ko'paytmasi: 32484375
