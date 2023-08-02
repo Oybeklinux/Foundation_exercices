@@ -76,7 +76,10 @@ for son in sonlar:
 print("Dastur tugadi")
 ```
 ```text
-',' bilan sonlar kiriting: 2,4,6,8,9,10,12,14
+',' bilan sonlar kiriting: 2,4,6,3,4,5
+2
+4
+6
 Dastur tugadi
 ```
 ### 3 continue ifodasi
