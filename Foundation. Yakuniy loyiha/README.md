@@ -155,27 +155,27 @@ for i in range(10):
 ```
 
 ```python
-def display_board(board):
+def doskani_korsat(doska):
     pass
    # Funktsiya doskani konsolga chop etadi.
 
-def enter_move(board):
+def keyingi_yurish(doska):
     pass
     # Funktsiya doskani qabul qiladi 
     # foydalanuvchidan raqamni so'raydi
     # doskani yangilaydi.
 
-def make_list_of_free_fields(board):
+def belgilanmagan_maydonlar_royxati(doska):
     pass     
     # Funktsiya doskani ko'rib chiqadi va barcha bo'sh kataklar (```"0"``` va ```"X"``` bo'lmagan) ro'yxatini tuzadi;
     # ro'yxat kortejlardan iborat, har bir kortej esa qator va ustun raqamlaridan iborat.
 
-def victory_for(board, sign):
+def golibni_aniqla(doska, belgi):
     pass
     # Funktsiya "O" yoki "X" belgilaridan foydalangan o'yinchi o'yinda 
     # g'alaba qozonganligini aniqlash uchun doska holatini tahlil qiladi     
 
-def draw_move(board):
+def keyingi_yurishni_chiz(doska):
     pass
     # Funktsiya kompyuterning harakatini chizadi va chizmani yangilaydi.
 ```
