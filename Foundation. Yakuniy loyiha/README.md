@@ -145,37 +145,88 @@ doska[row][column]
 
 Tasodifiy butun sonni hosil qilish randrange() deb nomlangan Python funksiyasidan foydalanish orqali amalga oshirilish mumkin. Quyidagi dastur misolida undan qanday foydalanish ko'rsatilgan (dastur 0 dan 8 gacha bo'lgan o'nta tasodifiy sonni chop etadi).
 
-_Eslatma_: ```from random import randrange``` ko'rsatma random nomli tashqi modulidagi randrange funksiyasini ko'rishini ta'minlaydi
+_Eslatma_: ```from random import choice``` ko'rsatma random nomli tashqi modulidagi choice funksiyasini ko'rishini ta'minlaydi
 
 ```text
-from random import randrange
+from random import choice
  
-for i in range(10):
-    print(randrange(8))
+raqam = choice([1,2,3,4,5,6,7,8,9])
+print(raqam)
 ```
 
+Dastur strukturasi. Bu yordam uchun, agar hohlasangiz boshidan o'zingiz qiling
+
 ```python
+from random import choice
+
+def bosh_doska_hosil_qil():
+    """
+    3x3 o'lchamli ro'yxat hosil qiladi
+    :param 
+        None - hech narsa qaytarmaydi
+    :return 
+        list - Hosil bo'lgan ro'yxatni qaytaradi
+    """
+    pass
+    
+
 def doskani_korsat(doska):
+    """
+    Doskani ekranga chiqaradi
+    :param 
+        doska
+    :return
+        None - hech narsa qaytarmaydi
+    """
     pass
-   # Funktsiya doskani konsolga chop etadi.
 
-def keyingi_yurish(doska):
+def foydalanuvchi_tanlasin(doska):
+    """
+    Foydalanuvchidan raqamni so'rab doskani o'zgartiradi
+    :param 
+        doska
+    :return 
+        None - hech narsa qaytarmaydi
+    """
+
+
+
+def bosh_maydonlar(doska):
+    """
+    doskadagi bo'sh raqamlar ro'yxatini qaytaradi, ya'ni
+    (0 va X bo'lmagan raqamlarni) qaytaradi 
+    :param 
+        doska
+    :return 
+        list - raqamlardan iborat bir o'lchamli roy'xat
+    """
+    pass    
+    
+def golib_bormi(doska, belgi):
+    """
+    G'olib borligini aniqlaydi
+    :param 
+        doska
+        blegi - X yoki 0. X - Kompyuter, 0 - foydalanuvchi
+    :return
+        bool - True agar g'olib mavjud bo'lsa, False g'olib bo'lmasa
+    """
     pass
-    # Funktsiya doskani qabul qiladi 
-    # foydalanuvchidan raqamni so'raydi
-    # doskani yangilaydi.
-
-def belgilanmagan_maydonlar_royxati(doska):
-    pass     
-    # Funktsiya doskani ko'rib chiqadi va barcha bo'sh kataklar (```"0"``` va ```"X"``` bo'lmagan) ro'yxatini tuzadi;
-    # ro'yxat kortejlardan iborat, har bir kortej esa qator va ustun raqamlaridan iborat.
-
-def golibni_aniqla(doska, belgi):
+ 
+    
+def kompyuter_tanlasin(doska):
+    """
+    Kompyuter qolgan raqamlar orasidan tasodifiy tanlab,
+    usha raqam o'niga X belgisini qo'yadi
+    :param 
+        doska
+    :return 
+        None - hech narsa qaytarmaydi
+    """
     pass
-    # Funktsiya "O" yoki "X" belgilaridan foydalangan o'yinchi o'yinda 
-    # g'alaba qozonganligini aniqlash uchun doska holatini tahlil qiladi     
 
-def keyingi_yurishni_chiz(doska):
+
+
+while bosh_maydonlar:
     pass
-    # Funktsiya kompyuterning harakatini chizadi va chizmani yangilaydi.
 ```
