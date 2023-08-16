@@ -1,5 +1,5 @@
 ﻿
-# Ikx nolik o'yini
+# Iks nolik o'yini
 
 **Stsenariy**
 
