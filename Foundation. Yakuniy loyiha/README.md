@@ -1,5 +1,5 @@
 ﻿
-# Iks nolik o'yini
+# Yakuniy ish: Iks nolik o'yini
 
 **Stsenariy**
 
