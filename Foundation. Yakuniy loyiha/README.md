@@ -147,7 +147,7 @@ Tasodifiy butun sonni hosil qilish randrange() deb nomlangan Python funksiyasida
 
 _Eslatma_: ```from random import choice``` ko'rsatma random nomli tashqi modulidagi choice funksiyasini ko'rishini ta'minlaydi
 
-```text
+```python
 from random import choice
  
 raqam = choice([1,2,3,4,5,6,7,8,9])
