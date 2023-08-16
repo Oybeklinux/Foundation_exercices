@@ -1,14 +1,15 @@
 ﻿
-# Tic-Tac-Toe
+# Ikx nolik o'yini
+
 **Stsenariy**
 
-Sizning vazifangiz foydalanuvchi bilan **iks nolik** o'yinini o'ynashni ko'rsatadigan oddiy dastur yozishdir. Siz uchun hamma narsani osonlashtirish uchun biz o'yinni soddalashtirishga qaror qildik. Mana bizning taxminlarimiz:
+Sizning vazifangiz foydalanuvchi bilan **iks nolik** o'yinini o'ynaydigan oddiy dastur yozishdir. Siz uchun hamma narsani osonlashtirish uchun biz o'yinni soddalashtirishga qaror qildik. Mana bizning talablarimiz:
 
 - kompyuter (ya'ni, sizning dasturingiz) o'yinni ```"X" ```yordamida o'ynashi kerak;
 - foydalanuvchi (masalan, siz) o'yinni ```"O"``` dan foydalanib o'ynashingiz kerak;
 - birinchi harakat kompyuterga tegishli - u har doim o'zining birinchi ```X``` belgisini doskaning o'rtasiga qo'yadi;
 - barcha kvadratlar ```1``` dan boshlab satr bo'yicha raqamlangan (ma'lumot uchun quyidagi misolga qarang)
-- foydalanuvchi o'zi tanlagan kvadrat raqamini kiritish orqali harakatini kiritadi - raqam haqiqiy bo'lishi kerak, ya'ni u butun son bo'lishi kerak, u ```0``` dan katta va ```10``` dan kichik bo'lishi kerak va u allaqachon mavjud bo'lgan maydonni ko'rsata olmaydi. ishg'ol qilingan;
+- foydalanuvchi o'zi tanlagan kvadrat raqamini kiritish orqali harakatini kiritadi - raqam haqiqiy bo'lishi kerak, ya'ni u butun son bo'lishi kerak, u ```0``` dan katta va ```10``` dan kichik bo'lishi kerak va u allaqachon kiritilgan maydonni ko'rsata olmaydi;
 - dastur o'yin tugaganligini tekshiradi - to'rtta mumkin bo'lgan hukm bor: o'yin davom etishi kerak, o'yin durang bilan tugaydi, siz g'alaba qozonasiz yoki kompyuter g'alaba qozonadi;
 - kompyuter o'z harakati bilan javob beradi va tekshirish takrorlanadi;
 - sun'iy intellektning hech qanday shaklini qo'llamang - kompyuter tomonidan tasodifiy maydonni tanlash o'yin uchun yetarli.
