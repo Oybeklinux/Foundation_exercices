@@ -1,122 +1,142 @@
-from random import choice
+# import math
+#
+#
+# class Point:
+#   def __init__(self, x=0.0, y=0.0):
+#     self.__x = x
+#     self.__y = y
+#
+#   def getx(self):
+#     return self.__x
+#
+#   def gety(self):
+#     return self.__y
+#
+#   def distance_from_xy(self, x, y):
+#     return math.hypot(abs(self.__x - x), abs(self.y - self.__y))
+#
+#   def distance_from_point(self, point):
+#     x = point.__x
+#     y = point.__y
+#     return self.distance_from_xy(x, y)
+#
+#
+# point1 = Point(0, 0)
+# point2 = Point(1, 1)
+# print(point1.distance_from_point(point2))
+# print(point2.distance_from_xy(2, 0))
+import pygame
+import sys
+import random
 
+pygame.init()
 
-def bosh_doska_hosil_qil():
-    """
-    3x3 o'lchamli ro'yxat hosil qiladi
-    :param 
-        None - hech narsa qaytarmaydi
-    :return 
-        list - Hosil bo'lgan ro'yxatni qaytaradi
-    """
-    pass
+SW, SH = 800, 800
 
+BLOCK_SIZE = 50
+FONT = pygame.font.Font("font.ttf", BLOCK_SIZE*2)
 
-def doskani_korsat(doska):
-    """
-    Doskani ekranga chiqaradi
-    :param 
-        doska
-    :return
-        None - hech narsa qaytarmaydi
-    """
-    for qator in doska:
-        print('+-------+-------+-------+')
-        for i in range(3):
-            if i == 1:
-                print(f"|   {qator[0]}   |   {qator[1]}   |   {qator[2]}   |")
-            else:
-                print(f"|       |       |       |")
-    print('+-------+-------+-------+')
+screen = pygame.display.set_mode((800, 800))
+pygame.display.set_caption("Snake!")
+clock = pygame.time.Clock()
 
+class Snake:
+    def __init__(self):
+        self.x, self.y = BLOCK_SIZE, BLOCK_SIZE
+        self.xdir = 1
+        self.ydir = 0
+        self.head = pygame.Rect(self.x, self.y, BLOCK_SIZE, BLOCK_SIZE)
+        self.body = [pygame.Rect(self.x-BLOCK_SIZE, self.y, BLOCK_SIZE, BLOCK_SIZE)]
+        self.dead = False
 
-def foydalanuvchi_tanlasin(doska):
-    """
-    Foydalanuvchidan raqamni so'rab doskani o'zgartiradi
-    :param 
-        doska
-    :return 
-        None - hech narsa qaytarmaydi
-    """
-    raqam = int(input("Raqam kiriting: "))
-    for i in range(len(doska)):
-        for j in range(len(doska[i])):
-            if doska[i][j] == raqam:
-                doska[i][j] = '0'
-                return
+    def update(self):
+        global apple
 
+        for square in self.body:
+            if self.head.x == square.x and self.head.y == square.y:
+                self.dead = True
+            if self.head.x not in range(0, SW) or self.head.y not in range(0, SH):
+                self.dead = True
 
-def bosh_maydonlar(doska):
-    """
-    doskadagi bo'sh raqamlar ro'yxatini qaytaradi, ya'ni
-    (0 va X bo'lmagan raqamlarni) qaytaradi 
-    :param 
-        doska
-    :return 
-        list - raqamlardan iborat bir o'lchamli roy'xat
-    """
-    royxat = []
-    for qator in doska:
-        for son in qator:
-            if son not in ['X', '0']:
-                royxat.append(son)
-    return royxat
+        if self.dead:
+            self.x, self.y = BLOCK_SIZE, BLOCK_SIZE
+            self.head = pygame.Rect(self.x, self.y, BLOCK_SIZE, BLOCK_SIZE)
+            self.body = [pygame.Rect(self.x-BLOCK_SIZE, self.y, BLOCK_SIZE, BLOCK_SIZE)]
+            self.xdir = 1
+            self.ydir = 0
+            self.dead = False
+            apple = Apple()
 
+        self.body.append(self.head)
+        for i in range(len(self.body)-1):
+            self.body[i].x, self.body[i].y = self.body[i+1].x, self.body[i+1].y
+        self.head.x += self.xdir * BLOCK_SIZE
+        self.head.y += self.ydir * BLOCK_SIZE
+        self.body.remove(self.head)
 
-def golib_bormi(doska, belgi):
-    """
-    G'olib borligini aniqlaydi
-    :param 
-        doska
-        blegi - X yoki 0. X - Kompyuter, 0 - foydalanuvchi
-    :return
-        bool - True agar g'olib mavjud bo'lsa, False g'olib bo'lmasa
-    """
-    for qator in doska:
-        if qator[0] == qator[1] == qator[2] == belgi:
-            return True
-    for i in range(len(doska)):
-        if doska[0][i] == doska[1][i] == doska[2][i] == belgi:
-            return True
+class Apple:
+    def __init__(self):
+        self.x = int(random.randint(0, SW)/BLOCK_SIZE) * BLOCK_SIZE
+        self.y = int(random.randint(0, SH)/BLOCK_SIZE) * BLOCK_SIZE
+        self.rect = pygame.Rect(self.x, self.y, BLOCK_SIZE, BLOCK_SIZE)
 
-    if doska[0][0] == doska[1][1] == doska[2][2] == belgi:
-        return True
-    if doska[0][2] == doska[1][1] == doska[2][0] == belgi:
-        return True
-    return False
+    def update(self):
+        pygame.draw.rect(screen, "orange", self.rect)
 
+def drawGrid():
+    for x in range(0, SW, BLOCK_SIZE):
+        for y in range(0, SH, BLOCK_SIZE):
+            rect = pygame.Rect(x, y, BLOCK_SIZE, BLOCK_SIZE)
+            pygame.draw.rect(screen, "#3c3c3b", rect, 1)
 
-def kompyuter_tanlasin(doska):
-    """
-    Kompyuter qolgan raqamlar orasidan tasodifiy tanlab,
-    usha raqam o'niga X belgisini qo'yadi
-    :param 
-        doska
-    :return 
-        None - hech narsa qaytarmaydi
-    """
-    belgilanmaganlari = bosh_maydonlar(doska)
-    raqam = choice(belgilanmaganlari)
-    for i in range(len(doska)):
-        for j in range(len(doska[i])):
-            if doska[i][j] == raqam:
-                doska[i][j] = 'X'
-                return
-    # Funktsiya kompyuterning harakatini chizadi va chizmani yangilaydi.
+score = FONT.render("1", True, "white")
+score_rect = score.get_rect(center=(SW/2, SH/20))
 
+drawGrid()
 
-doska = bosh_doska_hosil_qil()
-doska[1][1] = 'X'
-doskani_korsat(doska)
+snake = Snake()
 
-while bosh_maydonlar:
-    foydalanuvchi_tanlasin(doska)
-    doskani_korsat(doska)
-    if golib_bormi(doska, '0'):
-        print("Siz yutdingiz")
-        break
-    kompyuter_tanlasin(doska)
-    doskani_korsat(doska)
-    if golib_bormi(doska, 'X'):
-        print("Kompyuter yutdi")
-        break
+apple = Apple()
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_DOWN:
+                snake.ydir = 1
+                snake.xdir = 0
+            elif event.key == pygame.K_UP:
+                snake.ydir = -1
+                snake.xdir = 0
+            elif event.key == pygame.K_RIGHT:
+                snake.ydir = 0
+                snake.xdir = 1
+            elif event.key == pygame.K_LEFT:
+                snake.ydir = 0
+                snake.xdir = -1
+
+    snake.update()
+
+    screen.fill('black')
+    drawGrid()
+
+    apple.update()
+
+    score = FONT.render(f"{len(snake.body) + 1}", True, "white")
+
+    pygame.draw.rect(screen, "green", snake.head)
+
+    for square in snake.body:
+        pygame.draw.rect(screen, "green", square)
+
+    screen.blit(score, score_rect)
+
+    if snake.head.x == apple.x and snake.head.y == apple.y:
+        snake.body.append(pygame.Rect(square.x, square.y, BLOCK_SIZE, BLOCK_SIZE))
+        apple = Apple()
+
+    pygame.display.update()
+    clock.tick(5)
+
