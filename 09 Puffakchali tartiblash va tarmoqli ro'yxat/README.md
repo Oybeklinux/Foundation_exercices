@@ -443,7 +443,7 @@ Natija:
 [1, 27, 125, 343, 729]
 ```
 
-3. Quyidagi **fruits** ro'yxatida mevalar saqlanadi. Sizning vazifa tarkibida **i** harfi mavjud bo'lgan meva nomalridan tuzilgan yangi ro'yxat yaratib, ekranga chiqarish
+3. Quyidagi **fruits** ro'yxatida mevalar saqlanadi. Sizning vazifa tarkibida **n** harfi mavjud bo'lgan meva nomalridan tuzilgan yangi ro'yxat yaratib, ekranga chiqarish
 Nartija:
 
 ```text
