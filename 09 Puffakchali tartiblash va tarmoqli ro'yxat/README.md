@@ -379,7 +379,6 @@ bo'sh	bo'sh	bo'sh
 
 
 Keyingi holat
-Avvalgi holat
 bo'sh	bo'sh	bo'sh	
 bo'sh	bo'sh	bo'sh	
 bo'sh	bo'sh	bo'sh	
