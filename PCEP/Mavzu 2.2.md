@@ -1,14 +1,15 @@
 ﻿<!-- TOC -->
-  * [2.1 Pythonda birinchi dastur](#21-pythonda-birinchi-dastur)
-    * [Amaliyot. Sinf ishi](#amaliyot-sinf-ishi)
-    * [Savollar](#savollar)
-    * [Amaliyot. Uy ishi](#amaliyot-uy-ishi)
-    * [Savollarga javob](#savollarga-javob)
-    * [Amaliyot. Uy ishi javobi](#amaliyot-uy-ishi-javobi)
+* [2.1 Pythonda birinchi dastur](#21-pythonda-birinchi-dastur)
+  * [Amaliyot. Sinf ishi](#amaliyot-sinf-ishi)
+  * [Savollar](#savollar)
+  * [Amaliyot. Uy ishi](#amaliyot-uy-ishi)
+  * [Lug'at](#lugat)
+  * [Savollarga javob](#savollarga-javob)
+  * [Amaliyot. Uy ishi javobi](#amaliyot-uy-ishi-javobi)
 <!-- TOC -->
-## 2.1 Pythonda birinchi dastur
+# 2.1 Pythonda birinchi dastur
 
-### Amaliyot. Sinf ishi
+## Amaliyot. Sinf ishi
 
 1. Ekranga `Assalomu alaykum` so'zini chiqaring.
 
@@ -255,7 +256,7 @@ print(" |                | ")
 print("  --(_)------(_)-- ")
 ```
 
-### Savollar
+## Savollar
 
 1. Qaysi holatda sep parametriga qiymat bersak, natijaga ta'sir qilmaydi?
 2. Funksiyalarning kelib chiqishi bo'yicha xillari?
@@ -280,7 +281,7 @@ print("1,2,3")
 print("1,2", 3)
 ```
 
-### Amaliyot. Uy ishi
+## Amaliyot. Uy ishi
 1. Ekranga `Bu mening 2-darsim` matnini chiqaring.
 
 Natija:
@@ -417,7 +418,7 @@ print("ular sizdan ancha vaqtliroq boshlashgan")
 
 
 
-Lug'at
+## Lug'at
 
 1. Funksiyani chaqirish - function invocation
 
@@ -445,7 +446,7 @@ print("printni chaqirish")
 
 
 
-### Savollarga javob
+## Savollarga javob
 
 Qaysi holatda sep parametriga qiymat bersak, natijaga ta'sir qilmaydi?
 
@@ -643,7 +644,7 @@ ko'p qatorli satr""")
 ```
 
 
-### Amaliyot. Uy ishi javobi
+## Amaliyot. Uy ishi javobi
 
 1. Ekranga `Bu mening 2-darsim` matnini chiqaring.
 
