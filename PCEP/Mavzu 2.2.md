@@ -197,7 +197,7 @@ print("Billie Jean King")
 Natija:
 
 ```text
-    «Agar bajarishdan qo’rqsangiz, demak bu ishni bajarishga albatta urinib ko’rishingiz kerak!» — Seth Godin
+«Agar bajarishdan qo’rqsangiz, demak bu ishni bajarishga albatta urinib ko’rishingiz kerak!» — Seth Godin
 ```
 
 Kod:
@@ -267,9 +267,7 @@ print("  --(_)------(_)-- ")
 7. Pythonda bitta qatorda nechta ko'rsatma bo'lishi mumkin?
 8. \ belgisi nomi nima deb ataladi?
 9. Agar kodimizda xato bo'lsa, Python bizga qanday qilib xatolikni ko'rsatadi
-10. Quyida har bir uchun nechta argument borligini ayting.
-11. Necha xil argumentlar mavjud?
-12. Python son bilan satrni (ya'ni matnni) qanday ajratadi?
+10. Quyida berilgan har bir print uchun nechta argument borligini ayting.
 ```python
 print("2-dars")
 print(2, 3)
@@ -280,6 +278,9 @@ print(1,2,3)
 print("1,2,3")
 print("1,2", 3)
 ```
+11. Argumentlarning qanday turlari mavjud?
+12. Python son bilan satrni (ya'ni matnni) qanday ajratadi?
+
 
 ## Amaliyot. Uy ishi
 1. Ekranga `Bu mening 2-darsim` matnini chiqaring.
@@ -607,7 +608,7 @@ print("1,2,3")   # 1 ta argument: "1,2,3"
 print("1,2", 3)  # 2 ta argument: "1,2" va 3
 ```
 
-11. Necha xil argumentlar mavjud?
+11. Argumentlarning qanday turlari mavjud?
 
 Javob:
 
