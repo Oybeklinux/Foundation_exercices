@@ -451,7 +451,7 @@ print("printni chaqirish")
 
 Qaysi holatda sep parametriga qiymat bersak, natijaga ta'sir qilmaydi?
 
-Javob:
+**Javob:**
 
 print funksiyasiga beriladigan tartibli argumentlar soni bitta bo'lganda sep parametriga berilgan qiymatning ahamiyati
 yo'q
@@ -468,7 +468,7 @@ Mening ismim Otabek
 
 2. Funksiyalarning kelib chiqishi bo'yicha xillari?
 
-Javob:
+**Javob:**
 
 - To'g'ridan to'g'ri Pythondan
 - Modullardan
@@ -500,7 +500,7 @@ ismni_chiqar("Otabek", "Anvarov")
 
 3. Funksiyaning hususiyatlari?
 
-Javob:
+**Javob:**
 
 - **ta'sir**, ya'ni qandaydir ish bajaradi
 - **natija**, ya'ni qiymatni hisoblab, uni natija sifatida qaytaradi
@@ -531,7 +531,7 @@ print("Siz kiritgan son", son)
 
 4. Funksiya nomidan keyin bir juft qavslarni qo'yish shartmi?
 
-Javob:
+**Javob:**
 
 Ha, funksiyadan keyin doim qavs qo'yish shart
 
@@ -544,7 +544,7 @@ len("")
 
 5. Funksiya qavisi ichida nima bo'lishi mumkin?
 
-Javob:
+**Javob:**
 
 Parametr
 
@@ -556,7 +556,7 @@ def mening_funksiyam(a):
 
 6. Funksiyani chaqirgan paytimizda qavs ichida beriladigan qiymat nomi?
 
-Javob:
+**Javob:**
 
 Argument
 
@@ -567,7 +567,7 @@ print("2-dars")
 
 7. Pythonda bitta qatorda nechta ko'rsatma bo'lishi mumkin?
 
-Javob:
+**Javob:**
 
 0 ta yoki faqat bitta
 
@@ -579,13 +579,13 @@ print("3-qator")
 
 8. \ belgisi nomi nima deb ataladi?
 
-Javob:
+**Javob:**
 
 \ belgisi _teskari chiqziq_ yoki _bekslesh_ yoki _eskeyp belgisi_ deyiladi
 
 9. Agar kodimizda xato bo'lsa, Python bizga qanday qilib xatolikni ko'rsatadi
 
-Javob:
+**Javob:**
 
 Agar kodimizda xato bo'lsa, Python bizga quyidagilar haqida habar beradi:
 
@@ -610,7 +610,7 @@ print("1,2", 3)  # 2 ta argument: "1,2" va 3
 
 11. Argumentlarning qanday turlari mavjud?
 
-Javob:
+**Javob:**
 
 Argumentlar 2 xil bo'ladi: 
 - pozitsion, ya'ni tartibi bilan uzatish
@@ -625,7 +625,7 @@ print("1-dars", )
 
 12. Python son bilan satrni (ya'ni matnni) qanday ajratadi?
 
-Javob:
+**Javob:**
 
 Satr pythonda `str` deyiladi, uni quyidagi belgilardan biri ichida berishimiz kerak:
 - " (qo'shtirnoq) belgisi
