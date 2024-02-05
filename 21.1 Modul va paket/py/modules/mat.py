@@ -1,0 +1,3 @@
+
+def sin():
+    print("sin")
