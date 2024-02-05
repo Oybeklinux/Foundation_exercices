@@ -437,8 +437,8 @@ print("printni chaqirish")
 4. Ko'rsatma - instruction
 5. Yangi qator(`\n`) - newline
 6. \ belgisi - backslash (escape character)
-7. separator (sep) - ajratuvchi
-8. end - ohiri/tugashi
+7. ajratuvchi (sep) - separator
+8. ohiri/tugashi - end
 9. Argument xillari:
 - pozitsion argument - positional argument
 - kalit so'zli argument - keyword argument
