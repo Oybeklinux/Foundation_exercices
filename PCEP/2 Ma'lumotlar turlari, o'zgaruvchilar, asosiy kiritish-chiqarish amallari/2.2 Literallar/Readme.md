@@ -170,7 +170,7 @@ Misol 2
 
 
 7. Quyidagilar nechchiga teng?
-Pythonda daraja natijasi har doim haqiqiy bo'ladi
+Pythonda e bilan yozilgan daraja natijasi har doim haqiqiy bo'ladi
 
    - 3e3         = 3 * 10<sup>3</sup> = 3 000.0
    - 5e6         = 5 * 10<sup>6</sup> = 5 000 000 .0
