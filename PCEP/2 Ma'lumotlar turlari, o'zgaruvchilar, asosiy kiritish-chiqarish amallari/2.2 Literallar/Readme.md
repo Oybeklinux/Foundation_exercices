@@ -1,6 +1,5 @@
 ﻿<!-- TOC -->
-* [2.2 Literallar](#21-pythonda-birinchi-dastur)
-  * [Amaliyot. Sinf ishi](#amaliyot-sinf-ishi)
+* [2.1 Pythonda birinchi dastur](#21-pythonda-birinchi-dastur)
   * [Savollar](#savollar)
   * [Amaliyot. Uy ishi](#amaliyot-uy-ishi)
   * [Lug'at](#lugat)
