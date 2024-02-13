@@ -1,12 +1,12 @@
 ﻿<!-- TOC -->
-* [2.1 Pythonda birinchi dastur](#21-pythonda-birinchi-dastur)
+* [2.2 Literallar - ma'lumotlar](#21-pythonda-birinchi-dastur)
   * [Savollar](#savollar)
   * [Amaliyot. Uy ishi](#amaliyot-uy-ishi)
   * [Lug'at](#lugat)
   * [Savollarga javob](#savollarga-javob)
   * [Amaliyot. Uy ishi javobi](#amaliyot-uy-ishi-javobi)
 <!-- TOC -->
-# 2.1 Pythonda birinchi dastur
+# 2.2 Literallar - ma'lumotlar
 
 ## Savollar
 

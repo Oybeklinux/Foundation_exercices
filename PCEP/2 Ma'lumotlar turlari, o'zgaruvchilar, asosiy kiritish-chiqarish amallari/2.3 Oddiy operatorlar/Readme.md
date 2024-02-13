@@ -1,5 +1,5 @@
 ﻿<!-- TOC -->
-* [2.3 Oddiy parametrlar](#21-pythonda-birinchi-dastur)
+* [2.3 Oddiy operatorlar](#21-pythonda-birinchi-dastur)
   * [Amaliyot. Sinf ishi](#amaliyot-sinf-ishi)
   * [Savollar](#savollar)
   * [Amaliyot. Uy ishi](#amaliyot-uy-ishi)
@@ -7,7 +7,7 @@
   * [Savollarga javob](#savollarga-javob)
   * [Amaliyot. Uy ishi javobi](#amaliyot-uy-ishi-javobi)
 <!-- TOC -->
-# 2.1 Pythonda birinchi dastur
+# 2.3 Oddiy operatorlar
 
 ## Amaliyot. Sinf ishi
 
@@ -182,9 +182,30 @@ print(10. % 4.)
 8. Operator ustunligini o'zgartirish mumkinmi?
 
 ## Amaliyot. Uy ishi
-
+1. operator
+2. ifoda
+3. ustunlik ro'yxati
+4. assotsiativlik
 
 ## Lug'at
+1. operator - operator
+2. ifoda - expression
+3. Darajaga oshirish(eksponentsiya) - exponentiation
+4. Ko'paytirish - multiplication
+5. * asterisk
+6. Bo'lish - division
+7. Bo'linuvchi - dividend
+8. Bo'luvchi - divisor
+9. yaxlitlangan - rounded
+10. qoldiq (modul) - remainder (modulo)
+11. Qo'shish - addition
+12. Ayirish - subtraction
+13. unar operator - unary operator
+14. binar operator - binary operator
+15. operator ustunliklari - operator priorities
+16. o'ngdan o'qish - right-sided binding
+17. chapdan o'qish - left- sided binding
+18. Qavs - parentheses
 
 
 ## Savollarga javob
