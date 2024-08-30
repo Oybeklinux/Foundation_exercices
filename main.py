@@ -1,18 +1,20 @@
-son = 10
+# Foydalanuvchidan haroratni Selsiy bo'yicha kiritishni so'rash
+harorat = float(input("Haroratni Selsiy bo'yicha kiriting: "))
 
-
-match son:
-    case 1:
-        print("sd")
-    case 2:
-        print("2")
-
-def combined_example(pos_only, /, standard, *, kwd_only):
-    print(pos_only, standard, kwd_only)
-
-combined_example(1,3,kwd_only=4)
-
-def foo(name, **kwds):
-    return name in kwds
-
-foo(1, **{"r":10})
+# Harorat diapazonlarini tekshirish
+if harorat < -273.15:
+    print("Harorat noto'g'ri: mutlaq noldan past")
+elif harorat == -273.15:
+    print("Harorat mutlaq 0")
+elif -273.15 < harorat < 0:
+    print("Harorat muzlash darajasidan past")
+elif harorat == 0:
+    print("Harorat muzlash nuqtasida")
+elif 0 < harorat < 100:
+    print("Harorat normal diapazonda")
+elif harorat == 100:
+    print("Harorat qaynash nuqtasida")
+elif harorat > 100:
+    print("Harorat qaynash nuqtasidan yuqori")
+else:
+    print("Noma'lum holat")
